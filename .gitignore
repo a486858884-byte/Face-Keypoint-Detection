@@ -1,0 +1,13 @@
+# 忽略 Python 自动生成的缓存文件
+__pycache__/
+
+# 忽略所有数据集文件夹
+split_data/
+debug_data/
+
+# 忽略所有以 .pth 结尾的模型文件
+*.pth
+
+# 如果您在项目里创建了虚拟环境，也一并忽略
+venv/
+.venv/
